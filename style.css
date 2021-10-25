@@ -1,0 +1,32 @@
+body{
+    background-color: #1976D2; 
+    font-size: 2rem;
+    display: inline;
+}
+.clock{
+    width: 24rem;
+    height: 24rem;
+    border: 10px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 3rem;
+    left: 34%;
+}
+.c-face{
+    display: flex;
+    position: relative;
+    top: 12rem;
+    left: 1rem;
+}
+.hand {
+    width: 44%;
+    height: 6px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0, 2.4, 0, 2.43);
+}
+    
